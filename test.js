@@ -7,13 +7,6 @@ const adBlockers = [
   },
 ];
 
-// const host = document.location.host.replace("www.", "");
-
-// const adBlocks = adBlockers.filter((adBlock) => {
-//   var site = adBlock.site.split(",");
-//   return site.includes("green");
-// });
-
 adBlocks.forEach((adBlock) => {
   var adElementSelector = adBlock.adElementSelector;
 
