@@ -7,7 +7,7 @@ const adBlockers = [
   },
 ];
 
-adBlocks.forEach((adBlock) => {
+adBlockers.forEach((adBlock) => {
   var adElementSelector = adBlock.adElementSelector;
 
   setInterval(function () {
